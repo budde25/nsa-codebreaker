@@ -9,3 +9,15 @@ Time: 11/27/2019 10:49am
 epoch: 1574851740
 
 ashton--vhost-3805@terrortime.app
+
+POST /oauth2/token HTTP/1.1
+Content-Type: application/x-www-form-urlencoded
+Authorization: Basic YXNodG9uLS12aG9zdC0zODA1QHRlcnJvcnRpbWUuYXBwOlpJbWpKelRIVHlSZ09w
+X-Server-Select: oauth
+User-Agent: Dalvik/2.1.0 (Linux; U; Android 9; AOSP on IA Emulator Build/PSR1.180720.117)
+Host: register.terrortime.app
+Connection: close
+Accept-Encoding: gzip, deflate
+Content-Length: 50
+
+audience=&grant_type=client_credentials&scope=chat
